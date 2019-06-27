@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+plt.axis([0,10,0,10])
+plt.subplot(2,2,4)
+plt.scatter([11,3],[4,6])
+plt.title('HERO')
+plt.xlabel('distance')
+plt.ylabel('velocity')
+plt.bar([4,5,6,3],[6,2,9,1])
+plt.grid(1)
+plt.show()
